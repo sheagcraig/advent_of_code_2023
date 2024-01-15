@@ -1,0 +1,7 @@
+[workspace]
+members = [ "day_*" , "aoc" ]
+exclude = [ "template" ]
+resolver = "2"
+
+[workspace.dependencies]
+itertools = "0.12.0"
